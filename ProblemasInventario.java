@@ -30,7 +30,7 @@ public class ProblemasInventario {
     }
     //metodo del valor 't0' 
     public static double tCero(double d, double y){
-        return y/d;
+        return Math.floor((y/d)*100)/100; //Redondeo a solo dos decimales para hacer coincidir los resultaados de Le y punto de reorden-
     }
     //metodo del valor 'n'
     public static double valorN(double L,double tCero){
